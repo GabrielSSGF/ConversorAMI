@@ -9,3 +9,8 @@ Essa documentação visa explicar o funcionamento e uso do script em shell Linux
 6. E finalmente, após o upload no **S3**, o arquivo **.ova** será importado como **AMI** com o **MESMO NOME** do arquivo **.7z**;
 7. Ao final do processo, **TODOS** os arquivos colocados na pasta `$CONVERT_FOLDER` serão devidamente excluídos.
 > É de `EXTREMA` importância deixar claro que o script só funcionará corretamente colocando **APENAS UM** arquivo **.7z** por vez na pasta `$CONVERT_FOLDER`
+
+## 🔗 Requisitos
+- AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+- OVFTool: https://customerconnect.vmware.com/downloads/get-download?downloadGroup=OVFTOOL441
+- p7zip: https://www.7-zip.org/download.html
